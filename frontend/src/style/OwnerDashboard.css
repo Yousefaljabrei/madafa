@@ -1,0 +1,40 @@
+/* styles/OwnerDashboard.css */
+
+/* الشريط الجانبي */
+.sidebar {
+    background-color: #1d2124;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .sidebar li:hover {
+    background-color: #495057;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* تأثير hover على البطاقات */
+  .card-hover:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* تصميم النموذج */
+  .add-form input,
+  .add-form textarea {
+    border: 1px solid #ccc;
+  }
+  
+  .add-form input:focus,
+  .add-form textarea:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  }
+  
+  /* أزرار صغيرة */
+  .card .btn-sm {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  
